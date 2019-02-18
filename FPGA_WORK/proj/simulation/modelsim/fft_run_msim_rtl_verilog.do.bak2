@@ -1,0 +1,17 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/FPGA/FFT_S1/rtl {E:/FPGA/FFT_S1/rtl/butterfly_ra2.v}
+
+vlog -vlog01compat -work work +incdir+E:/FPGA/FFT_S1/proj/../testbench {E:/FPGA/FFT_S1/proj/../testbench/butterfly_ra2_seri_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  butterfly_ra2_seri_tb
+
+add wave *
+view structure
+view signals
+run -all

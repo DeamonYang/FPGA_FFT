@@ -1,0 +1,6 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,butterfly_ra2_seri:bfcalc|butterfly_ra2:bflab1|lpm_mult:Mult0|mult_73t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,butterfly_ra2_seri:bfcalc|butterfly_ra2:bflab1|lpm_mult:Mult1|mult_73t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,butterfly_ra2_seri:bfcalc|butterfly_ra2:bflab1|lpm_mult:Mult2|mult_73t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,butterfly_ra2_seri:bfcalc|butterfly_ra2:bflab1|lpm_mult:Mult3|mult_73t:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,butterfly_ra2_seri:bfcalc|butterfly_ra2:bflab1|lpm_mult:Mult3|mult_73t:auto_generated|mac_mult1,

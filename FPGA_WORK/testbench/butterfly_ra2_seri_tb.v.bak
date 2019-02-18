@@ -1,0 +1,25 @@
+module butterfly_ra2_seri_tb;
+
+butterfly_ra2_seri
+ (
+	rst_n,
+	clk,
+	bf_go,
+	bf_done,
+	
+	datax,
+	datay,
+	
+	wx,//第一个时钟周期读取旋转因子
+	wy,
+
+	bfx,
+	bfy,
+ );
+
+
+
+
+endmodule
+
+

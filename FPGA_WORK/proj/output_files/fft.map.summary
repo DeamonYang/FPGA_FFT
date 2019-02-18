@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Sep 22 20:12:37 2018
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : fft
+Top-level Entity Name : fft
+Family : Cyclone IV E
+Total logic elements : 404
+    Total combinational functions : 264
+    Dedicated logic registers : 268
+Total registers : 268
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 3,072
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 0

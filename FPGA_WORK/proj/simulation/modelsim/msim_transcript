@@ -1,0 +1,1212 @@
+# Reading D:/majorsoft/soft/quartus13/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do fft_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\majorsoft\soft\quartus13\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\majorsoft\soft\quartus13\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl {G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+# vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl {G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+# vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip {G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+# vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl {G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+# vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip {G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+# 
+# vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench {G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench/fft_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  fft_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps fft_tb 
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: VR  Hostname: DESKTOP-BUOQCK9  ProcessID: 9444
+# 
+#           Attempting to use alternate WLF file "./wlfttnyyyj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfttnyyyj
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench/fft_tb.v line 59
+# Simulation Breakpoint: Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench/fft_tb.v line 59
+# MACRO ./fft_run_msim_rtl_verilog.do PAUSED at line 21
+add wave -position insertpoint  \
+sim:/fft_tb/fft_lab1/IDEL \
+sim:/fft_tb/fft_lab1/RADDAT \
+sim:/fft_tb/fft_lab1/FBKSEQ \
+sim:/fft_tb/fft_lab1/FFTCLC \
+sim:/fft_tb/fft_lab1/FFTOUT \
+sim:/fft_tb/fft_lab1/rst_n \
+sim:/fft_tb/fft_lab1/clk \
+sim:/fft_tb/fft_lab1/data1 \
+sim:/fft_tb/fft_lab1/fft_go \
+sim:/fft_tb/fft_lab1/fft_done \
+sim:/fft_tb/fft_lab1/fft_res \
+sim:/fft_tb/fft_lab1/current_state \
+sim:/fft_tb/fft_lab1/next_state \
+sim:/fft_tb/fft_lab1/rad_data_en \
+sim:/fft_tb/fft_lab1/rd_cnt \
+sim:/fft_tb/fft_lab1/ot_cnt \
+sim:/fft_tb/fft_lab1/rd_data_add \
+sim:/fft_tb/fft_lab1/r_wren \
+sim:/fft_tb/fft_lab1/lay_cnt \
+sim:/fft_tb/fft_lab1/r_lay_cnt \
+sim:/fft_tb/fft_lab1/bf_cnt \
+sim:/fft_tb/fft_lab1/bf_done \
+sim:/fft_tb/fft_lab1/bstep \
+sim:/fft_tb/fft_lab1/rom_wn \
+sim:/fft_tb/fft_lab1/bf_clc_cnt \
+sim:/fft_tb/fft_lab1/bf_go \
+sim:/fft_tb/fft_lab1/ram_out \
+sim:/fft_tb/fft_lab1/ram_data_in \
+sim:/fft_tb/fft_lab1/bf_data_out \
+sim:/fft_tb/fft_lab1/w_wnp \
+sim:/fft_tb/fft_lab1/fft_data_out \
+sim:/fft_tb/fft_lab1/ram_add_prv
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+add wave -position insertpoint sim:/fft_tb/fft_lab1/bfcalc/*
+add wave -position insertpoint  \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/rst_n \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/clk \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/bf_go \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/bf_done \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/wx \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/wy \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/x1 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/y1 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/x2 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/y2 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/bfx1 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/bfy1 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/bfx2 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/bfy2 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/cnt \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/clc_en \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/a \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/b \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/c \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/d \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/r_x1 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/r_y1 \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/rel \
+sim:/fft_tb/fft_lab1/bfcalc/bflab1/img
+restart
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+add wave -position insertpoint  \
+sim:/fft_tb/fft_lab1/bf_data_out
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v(106): (vlog-2576) [BSOB] - Bit-select into 'r_x1' is out of bounds.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v(107): (vlog-2576) [BSOB] - Bit-select into 'r_y1' is out of bounds.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v(108): (vlog-2576) [BSOB] - Bit-select into 'r_x1' is out of bounds.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v(109): (vlog-2576) [BSOB] - Bit-select into 'r_y1' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2
+# 
+# Top level modules:
+# 	butterfly_ra2
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module butterfly_ra2_seri
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	butterfly_ra2_seri
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# 
+# Top level modules:
+# 	fft
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fft_tb
+# 
+# Top level modules:
+# 	fft_tb
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128
+# 
+# Top level modules:
+# 	ram128
+vlog -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wnp
+# 
+# Top level modules:
+# 	wnp
+restart
+# Loading work.fft_tb
+# Loading work.fft
+# Loading work.ram128
+# Loading work.wnp
+# Loading work.butterfly_ra2_seri
+# Loading work.butterfly_ra2
+run -all
+# Break in Module fft_tb at G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v line 59

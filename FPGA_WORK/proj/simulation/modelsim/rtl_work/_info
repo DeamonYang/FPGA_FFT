@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\FPWG_WORK\FPGA_W\FFT_S1\FFT_20180922\proj\simulation\modelsim
+vbutterfly_ra2
+IC@T=CGU=IL1Vh1l;@H40:0
+VIgK^Jbz07l1S>aMogLH^C0
+Z1 dG:\FPWG_WORK\FPGA_W\FFT_S1\FFT_20180922\proj\simulation\modelsim
+w1537616616
+8G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+FG:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl -O0
+!i10b 1
+!s100 [BcW=gb1:CnjFE_5Taze@0
+!s85 0
+!s108 1537617487.692000
+!s107 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl|-O0|G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2.v|
+!s101 -O0
+vbutterfly_ra2_seri
+ICW=7QA__k=PDafEGL911D3
+Vg;_fV>_PF8QF;ahiJh]4N3
+R1
+w1537500617
+8G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+FG:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 SgB]VmI<D:1c?mZUSY1^93
+!s85 0
+!s108 1537617487.964000
+!s107 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl|-O0|G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/butterfly_ra2_seri.v|
+!s101 -O0
+vfft
+ISSM8]SLHeRbZ?9B:@PN2f3
+Vk@NY^VOZ?UdaFhUcY8C8D1
+R1
+w1537617471
+8G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+FG:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 EMeZhneYR57Z8fYXUBh293
+!s85 0
+!s108 1537617488.205000
+!s107 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl|-O0|G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/rtl/fft.v|
+!s101 -O0
+vfft_tb
+ICZEXGVP?UD>Kjkj>_QbLA3
+VM>QD0DEjXP9k7SCizfzFE3
+R1
+w1537597495
+8G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+FG:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v
+L0 2
+R2
+r1
+31
+R3
+!i10b 1
+!s100 83U@Oe]Bz0XQgj`_87=VJ0
+!s85 0
+!s108 1537617488.495000
+!s107 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench|-O0|G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/testbench/fft_tb.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/proj/../testbench -O0
+vram128
+IBnNeYVg=nCT]RfH6BVlQU0
+V2ohd8XP<LfJRN7Kh0jPOF3
+R1
+w1537598047
+8G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+FG:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v
+L0 39
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip -O0
+!i10b 1
+!s100 >L3g4^<M9OMmoKR:45?Y73
+!s85 0
+!s108 1537617488.840000
+!s107 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip|-O0|G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/ram128.v|
+!s101 -O0
+vwnp
+!i10b 1
+!s100 l0nV;VT?HGcC_KPK^O4a=3
+IQkA[`hz3EXYn;jDD^>>h01
+V[hSC7H:FFNGnadlA9PPZ50
+R1
+w1537608555
+8G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+FG:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1537617489.170000
+!s107 G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip|-O0|G:/FPWG_WORK/FPGA_W/FFT_S1/FFT_20180922/ip/wnp.v|
+!s101 -O0
+R3
+R5

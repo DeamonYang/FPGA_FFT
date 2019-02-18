@@ -1,0 +1,21 @@
+ module butterfly_ra2_seri
+ (
+	rst_n,
+	clk,
+	bf_go,
+	bf_done,
+	wx,
+	wy,
+	x1,
+	y1,
+	x2,
+	y2,
+	bfx1,
+	bfy1,
+	bfx2,
+	bfy2,
+ );
+ 
+ endmodule
+ 
+ 

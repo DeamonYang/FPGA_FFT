@@ -1,0 +1,26 @@
+`timescale 1ns/1ps
+module fft_mult_tb;
+
+
+	reg rst_n;
+	reg clk;
+	reg[7:0]data1;
+	reg[7:0]data2;
+	wire [8:0]res;	
+	
+	
+	fft fft_lab1(
+			.rst_n(rst_n),
+			.clk(ckl),
+			.data1(data1),
+			.data2(data2),
+			.res(res)
+		);
+
+
+
+
+
+endmodule
+
+

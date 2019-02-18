@@ -1,0 +1,44 @@
+`timescale 1ns/1ps
+
+
+module butterfly_ra2_tb;
+
+
+
+	input rst_n;
+	input clk;
+	input bf_go;
+	output reg bf_done;
+	input signed[8:0]wx;
+	input signed[8:0]wy;
+	input signed[8:0]x1;
+	input signed[8:0]y1;
+	input signed[8:0]x2;
+	input signed[8:0]y2;
+	output reg signed[9:0]bfx1;
+	output reg signed[9:0]bfy1;
+	output reg signed[9:0]bfx2;
+	output reg signed[9:0]bfy2;
+
+
+
+	butterfly_ra2 butterfly_ra2_lab1(
+		rst_n,
+		clk,
+		bf_go,
+		bf_done,
+		wx,
+		wy,
+		x1,
+		y1,
+		x2,
+		y2,
+		bfx1,
+		bfy1,
+		bfx2,
+		bfy2,
+	 );
+
+
+
+endmodule

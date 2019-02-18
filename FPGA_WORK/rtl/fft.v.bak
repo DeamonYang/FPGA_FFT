@@ -1,0 +1,23 @@
+module fft(
+	rst_n,
+	clk,
+	data1,
+	data2,
+	res,
+);
+	reg rst_n,
+	reg clk,
+	input[7:0]data1,
+	input[7:0]data2,
+	output reg [8:0]res,	
+
+	always@(posedge clk or negedge rst_n )
+	if(!rst_n)
+		res <= 9'd0;
+	else
+		res <= data1*data2;
+
+
+
+
+endmodule
